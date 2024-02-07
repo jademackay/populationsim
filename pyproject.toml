@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Jade Mackay <jademackay@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "populationsim" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
